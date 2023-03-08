@@ -43,7 +43,7 @@ public class Celular {
         this.estado = estado;
     }
 
-    public void useCel(){
+    public void useCel() throws InterruptedException {
         this.estado.celBehavior(this);
     }
 }
