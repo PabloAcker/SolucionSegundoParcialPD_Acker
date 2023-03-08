@@ -16,7 +16,7 @@ public class Prendido implements IEstado{
             celular.setConsumoCPU(consumoActual);
             System.out.println("Uso de recursos: "+celular.getConsumoCPU()+"%");
         }
-        System.out.println("Los recursos ya llegaron al 100%");
+        System.out.println("Los recursos ya llegaron y/o sobrepasaron el 100%");
         System.out.println("============================================");
     }
 }

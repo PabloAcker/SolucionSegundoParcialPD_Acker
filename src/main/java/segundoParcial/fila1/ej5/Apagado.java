@@ -7,7 +7,7 @@ public class Apagado implements IEstado{
         celular.setConsumoCPU(10);
         System.out.println("EL celular esta apagado");
         System.out.println("Programas abiertos: " + celular.getProgramasAbiertos());
-        System.out.println("Uso de recursos: "+celular.getConsumoCPU()+"%");
+        System.out.println("Uso de recursos: "+celular.getConsumoCPU()+"% [Usando recursos minimos]");
         System.out.println("Uso de memoria RAM: "+celular.getMemoriaRAM());
         System.out.println("============================================");
     }
