@@ -31,6 +31,6 @@ public class Estudiante extends Persona{
 
     @Override
     public void received(String msg) {
-
+        System.out.println("El mensaje fue recibido exitosamente por el estudiante "+getNombre()+"\n"+msg);
     }
 }
